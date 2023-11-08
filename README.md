@@ -25,9 +25,13 @@
 ### Robustness
 - RARR: Researching and Revising What Language Models Say, Using Language Models. [pdf](https://arxiv.org/pdf/2210.08726.pdf) arXiv, 2023.
 
-- Fundamental Limitations of Alignment in Large Language Models. [pdf](https://arxiv.org/pdf/2304.11082.pdf) arXiv, 2023
+- Fundamental Limitations of Alignment in Large Language Models. [pdf](https://arxiv.org/pdf/2304.11082.pdf) arXiv, 2023.
 
-- DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models. [pdf](https://arxiv.org/pdf/2306.11698.pdf) arXiv, 2023
+- DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models. [pdf](https://arxiv.org/pdf/2306.11698.pdf) arXiv, 2023.
+
+- Large Language Model Alignment: A Survey. [pdf](https://arxiv.org/pdf/2309.15025.pdf) arXiv, 2023.
+
+- The Janus Interface: How Fine-Tuning in Large Language Models Amplifies the Privacy Risk. [pdf](https://arxiv.org/pdf/2310.15469.pdf).
 
 ### Jailbreak
 
@@ -49,6 +53,14 @@
 
 - [workshop] On the Privacy Risk of In-context Learning. [pdf](https://trustnlpworkshop.github.io/papers/13.pdf) arXiv, 2023.
 
+- Jailbreaking Black Box Large Language Models in Twenty Queries. [pdf](https://arxiv.org/pdf/2310.08419.pdf) arXiv, 2023.
+
+- Scalable and Transferable Black-Box Jailbreaks for Language Models via Persona Modulation. [pdf](https://arxiv.org/pdf/2311.03348.pdf) arXiv, 2023.
+
+- Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models. [pdf](https://arxiv.org/pdf/2307.08487.pdf) arXiv, 2023.
+
+- AutoDAN: Automatic and Interpretable Adversarial Attacks on Large Language Models. [pdf](https://arxiv.org/pdf/2310.15140.pdf) arXiv, 2023.
+
 
 ### Others
 - LAMBRETTA: Learning to Rank for Twitter Soft Moderation. [pdf](https://arxiv.org/pdf/2212.05926.pdf) S&P, 2023.
@@ -65,4 +77,4 @@
 
 - Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models. [pdf](https://arxiv.org/pdf/2311.00871.pdf) arXiv, 2023.
 
-- 
+- [website] Jailbreaking Large Language Models: Techniques, Examples, Prevention Methods [link](https://www.lakera.ai/blog/jailbreaking-large-language-models-guide)
