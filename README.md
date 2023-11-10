@@ -22,7 +22,7 @@
 
 - Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs. [pdf](https://arxiv.org/pdf/2305.11792.pdf) arXiv, 2023.
 
-### Robustness
+### Robustness and Safety Alignment
 - RARR: Researching and Revising What Language Models Say, Using Language Models. [pdf](https://arxiv.org/pdf/2210.08726.pdf) arXiv, 2023.
 
 - Fundamental Limitations of Alignment in Large Language Models. [pdf](https://arxiv.org/pdf/2304.11082.pdf) arXiv, 2023.
@@ -31,7 +31,9 @@
 
 - Large Language Model Alignment: A Survey. [pdf](https://arxiv.org/pdf/2309.15025.pdf) arXiv, 2023.
 
-- The Janus Interface: How Fine-Tuning in Large Language Models Amplifies the Privacy Risk. [pdf](https://arxiv.org/pdf/2310.15469.pdf).
+- The Janus Interface: How Fine-Tuning in Large Language Models Amplifies the Privacy Risk. [pdf](https://arxiv.org/pdf/2310.15469.pdf) arXiv, 2023.
+
+- Identifying and Mitigating the Security Risks of Generative AI. [pdf](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/2308.14840v3.pdf) arXiv, 2023.
 
 ### Jailbreak
 
@@ -60,6 +62,8 @@
 - Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models. [pdf](https://arxiv.org/pdf/2307.08487.pdf) arXiv, 2023.
 
 - AutoDAN: Automatic and Interpretable Adversarial Attacks on Large Language Models. [pdf](https://arxiv.org/pdf/2310.15140.pdf) arXiv, 2023.
+
+- Jailbroken: How Does LLM Safety Training Fail? [pdf](https://arxiv.org/pdf/2307.02483.pdf) arXiv, 2023.
 
 
 ### Others
