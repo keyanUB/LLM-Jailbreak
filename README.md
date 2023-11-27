@@ -63,8 +63,6 @@
 
 - AutoDAN: Automatic and Interpretable Adversarial Attacks on Large Language Models. [pdf](https://arxiv.org/pdf/2310.15140.pdf) arXiv, 2023.
 
-- Jailbroken: How Does LLM Safety Training Fail? [pdf](https://arxiv.org/pdf/2307.02483.pdf) arXiv, 2023.
-
 
 ### Others
 - LAMBRETTA: Learning to Rank for Twitter Soft Moderation. [pdf](https://arxiv.org/pdf/2212.05926.pdf) S&P, 2023.
