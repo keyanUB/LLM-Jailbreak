@@ -21,6 +21,10 @@
 - Prompting Is Programming: A Query Language for Large Language Models. [pdf](https://arxiv.org/pdf/2212.06094.pdf) PLDI 2023.
 
 - Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs. [pdf](https://arxiv.org/pdf/2305.11792.pdf) arXiv, 2023.
+  
+- Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine. [pdf](https://arxiv.org/pdf/2311.16452.pdf) arXiv, 2023.
+
+- Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning. [pdf](https://arxiv.org/pdf/2305.14160.pdf), 2023
 
 ### Robustness and Safety Alignment
 - RARR: Researching and Revising What Language Models Say, Using Language Models. [pdf](https://arxiv.org/pdf/2210.08726.pdf) arXiv, 2023.
@@ -34,6 +38,12 @@
 - The Janus Interface: How Fine-Tuning in Large Language Models Amplifies the Privacy Risk. [pdf](https://arxiv.org/pdf/2310.15469.pdf) arXiv, 2023.
 
 - Identifying and Mitigating the Security Risks of Generative AI. [pdf](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/2308.14840v3.pdf) arXiv, 2023.
+
+- The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning. [pdf](https://arxiv.org/pdf/2312.01552.pdf) arXiv, 2023.
+
+- Chain-of-Verification Reduces Hallucination in Large Language Models. [pdf](https://arxiv.org/abs/2309.11495) arXiv, 2023.
+
+- Language Is Not All You Need: Aligning Perception with Language Models. [pdf](https://arxiv.org/pdf/2302.14045.pdf) arXiv, 2023.
 
 ### Jailbreak
 
@@ -63,6 +73,8 @@
 
 - AutoDAN: Automatic and Interpretable Adversarial Attacks on Large Language Models. [pdf](https://arxiv.org/pdf/2310.15140.pdf) arXiv, 2023.
 
+- "Open Sesame! Universal Black Box Jailbreaking of Large Language Models. [pdf](https://arxiv.org/abs/2309.01446) arXiv, 2023.
+
 
 ### Others
 - LAMBRETTA: Learning to Rank for Twitter Soft Moderation. [pdf](https://arxiv.org/pdf/2212.05926.pdf) S&P, 2023.
@@ -80,3 +92,5 @@
 - Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models. [pdf](https://arxiv.org/pdf/2311.00871.pdf) arXiv, 2023.
 
 - [website] Jailbreaking Large Language Models: Techniques, Examples, Prevention Methods [link](https://www.lakera.ai/blog/jailbreaking-large-language-models-guide)
+
+- Text Embeddings Reveal (Almost) As Much As Text. [pdf](https://aclanthology.org/2023.emnlp-main.765/) EMNLP, 2023.
