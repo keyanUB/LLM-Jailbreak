@@ -75,6 +75,64 @@
 
 - "Open Sesame! Universal Black Box Jailbreaking of Large Language Models. [pdf](https://arxiv.org/abs/2309.01446) arXiv, 2023.
 
+- AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models. [pdf](https://arxiv.org/pdf/2310.04451) ICLR, 2024. Uses a hierarchical genetic algorithm to generate semantically coherent, low-perplexity jailbreak prompts that evade perplexity-based filters, with strong cross-model transferability.
+
+- AutoDAN-Turbo: A Lifelong Agent for Strategy Self-Exploration to Jailbreak LLMs. [pdf](https://arxiv.org/pdf/2410.05295) ICLR, 2025. Extends AutoDAN with a lifelong learning agent that autonomously discovers and accumulates jailbreak strategies without human intervention.
+
+- GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts. [pdf](https://arxiv.org/pdf/2309.10253) arXiv, 2024. An AFL-inspired fuzzing framework that mutates seed jailbreak templates using semantic-preserving operators, achieving over 90% attack success rates against ChatGPT and Llama-2.
+
+- WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models. [pdf](https://arxiv.org/abs/2406.18510) NeurIPS, 2024. Mines real user-chatbot interactions to discover 5,700+ unique jailbreak tactic clusters and compositionally combines them, yielding up to 4.6x more diverse attacks vs. prior SOTA.
+
+- Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack. [pdf](https://arxiv.org/abs/2404.01833) arXiv, 2024. Gradually escalates a benign-seeming conversation in small steps, exploiting the model's pattern-following tendency. Achieves up to 98% success against GPT-4, Claude-2, Gemini-Pro, and LLaMA-2 70B.
+
+- Many-Shot Jailbreaking. [pdf](https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf) NeurIPS, 2024. Demonstrates that filling long-context windows with hundreds of faux-dialogue demonstrations causes LLMs to comply with harmful requests; attack strength follows a power law with shot count.
+
+- FigStep: Jailbreaking Large Vision-Language Models via Typographic Visual Prompts. [pdf](https://arxiv.org/abs/2311.05608) AAAI, 2025. Converts harmful queries into typographic images so safety filters on the text side cannot intercept them, achieving 82.5% average attack success rate across six open-source VLMs.
+
+- FC-Attack: Jailbreaking Multimodal Large Language Models via Auto-Generated Flowcharts. [pdf](https://arxiv.org/abs/2502.21059) arXiv, 2025. Encodes harmful instructions as auto-generated flowchart images to bypass text-based safety alignment by exploiting the weaker alignment of the visual modality.
+
+- H-CoT: Hijacking the Chain-of-Thought Safety Reasoning Mechanism to Jailbreak Large Reasoning Models. [pdf](https://arxiv.org/abs/2502.12893) arXiv, 2025. Demonstrates a universal transferable attack on OpenAI o1/o3, DeepSeek-R1, and Gemini 2.0 Flash Thinking by corrupting the model's own chain-of-thought reasoning, reducing refusal rates from 98% to below 2%.
+
+- Improving Alignment and Robustness with Circuit Breakers. [pdf](https://arxiv.org/pdf/2406.04313) arXiv, 2024. Uses representation engineering to intervene on internal model activations responsible for harmful outputs, interrupting generation rather than relying on refusal training.
+
+- HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal. [pdf](https://arxiv.org/abs/2402.04249) ICML, 2024. Compares 18 red-teaming methods against 33 target LLMs and defenses; the de facto standard benchmark for attack/defense co-evaluation.
+
+- JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models. [pdf](https://arxiv.org/pdf/2404.01318) NeurIPS, 2024. Introduces the JBB-Behaviors dataset (100 behaviors across 10 harm categories) and rigorous human evaluation of jailbreak classifiers.
+
+- A StrongREJECT for Empty Jailbreaks. [pdf](https://arxiv.org/pdf/2402.10260) arXiv, 2024. Proposes the StrongREJECT evaluator, which scores both willingness and response quality to avoid crediting jailbreaks that produce vague or useless answers (0.90 Spearman correlation with human labelers).
+
+- Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs. [pdf](https://proceedings.neurips.cc/paper_files/paper/2024/file/38c1dfb4f7625907b15e9515365e7803-Paper-Datasets_and_Benchmarks_Track.pdf) NeurIPS, 2024. Systematically ablates implementation choices across major jailbreak methods, exposing how sensitive reported results are to hyperparameter and initialization decisions.
+
+### Agent Indirect Prompt Injection (IPI) Attacks
+
+**Seminal Papers**
+
+- Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection. [pdf](https://arxiv.org/abs/2302.12173) arXiv, 2023. The foundational IPI paper demonstrating that adversaries can remotely exploit LLM-integrated apps by injecting malicious instructions into content the model retrieves (web pages, emails, documents).
+
+- Prompt Injection Attack against LLM-Integrated Applications. [pdf](https://arxiv.org/abs/2306.05499) arXiv, 2023. Systematically analyzes prompt injection attack vectors against real-world LLM-integrated apps, categorizing attack goals (goal hijacking, prompt leaking) and demonstrating attacks on commercial systems.
+
+- Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models. [pdf](https://arxiv.org/abs/2312.14197) arXiv, 2023. Constructs an IPI benchmark across question answering, summarization, and code generation tasks and evaluates several lightweight defenses.
+
+**Benchmarks & Evaluation**
+
+- InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents. [pdf](https://arxiv.org/abs/2403.02691) ACL Findings, 2024. A benchmark of 1,054 test cases across 17 user tools and 62 attacker tools; finds that ReAct-prompted GPT-4 is vulnerable 24% of the time.
+
+- AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents. [pdf](https://arxiv.org/abs/2406.13352) NeurIPS, 2024. A dynamic benchmark simulating realistic agentic pipelines (email, calendar, banking tasks) that enables fair attack/defense comparisons while measuring legitimate task completion.
+
+- Agent Security Bench (ASB): Benchmarking the Attacks and Defenses of LLM-based Agents. [pdf](https://arxiv.org/abs/2410.02644) ICLR, 2025. Covers 10 attack methods (IPI, memory poisoning, backdoor attacks) across 10 scenarios and 400 tasks, evaluating 17 agent defense methods.
+
+**Attack Papers**
+
+- PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models. [pdf](https://arxiv.org/abs/2402.07867) USENIX Security, 2025. Injects a small number of malicious passages into the knowledge database, achieving 97%+ attack success rates—the first RAG-specific knowledge corruption attack.
+
+- Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems. [pdf](https://arxiv.org/abs/2410.07283) arXiv, 2024. Introduces a self-replicating prompt injection attack that spreads across interconnected LLM agents like a worm, enabling data theft, misinformation, and system-wide disruption.
+
+- Backdoored Retrievers for Prompt Injection Attacks on Retrieval Augmented Generation of Large Language Models. [pdf](https://arxiv.org/abs/2410.14479) arXiv, 2024. Shows that a compromised retriever model can systematically surface malicious documents to enable harmful link injection and denial-of-service in RAG pipelines.
+
+**Defense Papers**
+
+- Mitigating Indirect Prompt Injection via Instruction-Following Intent Analysis. [pdf](https://arxiv.org/abs/2512.00966) arXiv, 2024. Proposes IntentGuard, which analyzes whether the LLM treats content as actionable; reduces attack success rates by over 90% with minimal task degradation.
+
 
 ### Others
 - LAMBRETTA: Learning to Rank for Twitter Soft Moderation. [pdf](https://arxiv.org/pdf/2212.05926.pdf) S&P, 2023.
